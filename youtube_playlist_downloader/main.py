@@ -13,7 +13,7 @@ def main():
                         help='Resolution of files if mp4 (défaut: 720)')
     parser.add_argument('--link', type=str,
                         help='Playlist link (example: https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID)')
-    parser.add_argument('--output_path', type=str, default="./",
+    parser.add_argument('--output_path', type=str, default="./output",
                         help='Output directory (default: ./)')
 
     args = parser.parse_args()
